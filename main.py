@@ -1,9 +1,11 @@
-data = input()
+# Cоздать новый репо для этих задач
+# Создать проект в виртуальном окружении venv
+# создать скрипт, который выводит имя ОС
+# опубликовать в репо проект (без venv)
 
-number = 5 if data == "Five" else 0
-if data == "Five":
-    number = 5
-else:
-    number = 0
 
-print(number)
+import platform
+import os
+print("Name of the operating system:",os.name)
+print("\nName of the OS system:",platform.system())
+print("\nVersion of the operating system:",platform.release())
