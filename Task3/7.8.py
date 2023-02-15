@@ -12,6 +12,7 @@ ip = "192.168.3.1"
 
 a = ip.split(".")
 ssd = "{:<10} {:<10} {:<10} {:<10}".format(a[0], a[1], a[2], a[3])
+# need to add 1 more resul using format for второй строкой двоичные значения. Want to use 2 variants
 print(ssd)
 
 print(f"{a[0]:<10} {a[1]:<10} {a[2]:<10} {a[3]:<10}")
