@@ -4,6 +4,7 @@
   using the print method.
 """
 
+
 john_salary = 2555.5
 marta_salary = 3200.7
 

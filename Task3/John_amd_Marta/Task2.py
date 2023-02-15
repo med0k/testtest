@@ -4,6 +4,7 @@ Assign the created variables the values you want. Print the values of both varia
 to the console using the print method.
 """
 
+
 john_salary = 61500
 marta_salary = 128200
 
