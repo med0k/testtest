@@ -41,7 +41,4 @@ rick = {
     'Salary': 100500
 }
 
-list_marta = list(marta.items())
-list_johny = list(john.items())
-
 print("Key value Marta: \n", marta.items(), "\nKey value John: \n", john.items())
