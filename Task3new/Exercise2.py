@@ -6,6 +6,9 @@ and the rest of the space is filled with the symbol "*"
 """
 
 list_friends = ["John", "Marta", "James", "Amanda", "Marianna"]
+star = "Names"
 
-print(f"{list_friends[0]:<5}\n{list_friends[1]:<5}\n{list_friends[2]:<5}\n{list_friends[3]:<5}\n{list_friends[4]:<5}")
+print(f"**********{star}**********")
+print(f"{list_friends[0]:>25}\n{list_friends[1]:>25}\n{list_friends[2]:>25}\n{list_friends[3]:>25}"
+      f"\n{list_friends[4]:>25}")
 
